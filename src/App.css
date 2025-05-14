@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.eagle-idle,
+.eagle-flying {
+  width: 200px;
+  height: auto;
+  transition: opacity 0.1s ease-in-out; /* Smooth transition between frames */
+  will-change: opacity; /* Optimize for animation */
+}
+
+.eagle-flying {
+  opacity: 0.95; /* Slight opacity change to reduce flicker */
+}
